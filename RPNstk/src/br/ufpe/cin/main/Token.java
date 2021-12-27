@@ -24,8 +24,8 @@ public class Token {
 	public final TokenType type; // token type
 	public final String lexeme; // token value
 
-	public Token (TokenType type, String value) {
-		this.type = type;
+	public Token (TokenType plus, String value) {
+		this.type = plus;
 		this.lexeme = value;
 	}
 
